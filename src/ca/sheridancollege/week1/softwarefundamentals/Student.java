@@ -14,6 +14,7 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
+    private String ID;
 
     public double getGPA() {
         return GPA;
@@ -53,6 +54,20 @@ public class Student {
      */
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    /**
+     * @return the ID
+     */
+    public String getID() {
+        return ID;
+    }
+
+    /**
+     * @param ID the ID to set
+     */
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
 }
