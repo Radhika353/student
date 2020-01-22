@@ -7,12 +7,12 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author sidhu376
+ * @author sidhu376 
  */
 public class Student {
     
     private String name;
-   // private double GPA;
+    private double GPA;
     private String email;
     private String ID;
     private String student;
